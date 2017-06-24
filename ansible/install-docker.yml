@@ -1,0 +1,8 @@
+--- # test docker-install 
+- hosts: local
+  user: mayman
+  become: yes
+  connection: ssh
+  gather_facts: yes
+  roles:
+    - install-docker

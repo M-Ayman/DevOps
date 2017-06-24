@@ -1,0 +1,7 @@
+# tags: ntpd usb_storage sha512 password_policy login_defs
+
+- name: add the OS specific variables
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- name: Load Configuration for a specific OS
+  include: "{{ ansible_os_family }}.yml"

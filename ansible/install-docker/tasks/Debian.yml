@@ -1,0 +1,14 @@
+# Managed docker by Ansible for UbuntuOS
+- name: install repository over HTTPS
+  package: name={{ repo_pkg_name }} state=latest
+  tags: apt-repo
+- name: Install Docker repo
+  command: /usr/bin/add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+  tags: doc-repo
+- name: Update the apt package index
+  package: name=* state=latest
+- name: Install latest version of Docker
+  package: name=docker-ce state=present
+  tags: doc-install
+- name: start/enable {{ docker_pkg }}
+  service: name={{ docker_pkg }} state=started enabled=yes

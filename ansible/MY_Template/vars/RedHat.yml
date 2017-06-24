@@ -1,0 +1,3 @@
+ntpd_pkg_name: 
+  - ntp
+  - ntpdate
