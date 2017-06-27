@@ -1,7 +1,7 @@
 node {
     try{
         notify("Started!!!!!")
-        stage 'Build'
+        stage 'Build!!'
         git 'https://github.com/ahmedmisbah/devops-sample-java-project.git'
         def project_path = "ReverseDictionary-boot/"
         dir(project_path) {
