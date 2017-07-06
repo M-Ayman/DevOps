@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170706 13:53:03.953" generator="Robot 3.0 (Python 2.7.10 on win32)">
+<suite source="C:\Users\dpgn7791\development\robot-scripts\Orange_Radio\Tests\HeaderTests.robot" id="s1" name="HeaderTests">
+<test id="s1-t1" name="Test orange logo">
+<kw type="setup" name="Open orange radio" library="Commonkwds">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:05.079" level="INFO">Opening browser 'firefox' to base url 'http://www.radio.orange.com/home'</msg>
+<status status="PASS" endtime="20170706 13:53:18.641" starttime="20170706 13:53:05.079"></status>
+</kw>
+<kw name="Maximize Browser Window" library="ExtendedSelenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170706 13:53:18.734" starttime="20170706 13:53:18.641"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:18.735" starttime="20170706 13:53:05.078"></status>
+</kw>
+<kw name="Click &quot;orange&quot; logo" library="Header">
+<kw name="Click Image" library="ExtendedSelenium2Library">
+<doc>Clicks an image identified by ``locator``.</doc>
+<arguments>
+<arg>${orange_logo}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:18.737" level="INFO">Clicking image 'xpath=//img[@title='Back to homepage']'.</msg>
+<status status="PASS" endtime="20170706 13:53:19.356" starttime="20170706 13:53:18.736"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:19.356" starttime="20170706 13:53:18.736"></status>
+</kw>
+<kw name="verify &quot;Orange Radio Home&quot; visible" library="OrangeRadio">
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Home_tab1}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:19.358" level="INFO">Verifying element 'Css=#tab1' is visible.</msg>
+<status status="PASS" endtime="20170706 13:53:19.420" starttime="20170706 13:53:19.358"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:19.420" starttime="20170706 13:53:19.357"></status>
+</kw>
+<kw type="teardown" name="Close orange radio" library="Commonkwds">
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170706 13:53:19.804" starttime="20170706 13:53:19.421"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:19.804" starttime="20170706 13:53:19.420"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:19.804" critical="yes" starttime="20170706 13:53:05.077"></status>
+</test>
+<test id="s1-t2" name="Test orange Radio link">
+<kw type="setup" name="Open orange radio" library="Commonkwds">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:19.858" level="INFO">Opening browser 'firefox' to base url 'http://www.radio.orange.com/home'</msg>
+<status status="PASS" endtime="20170706 13:53:29.830" starttime="20170706 13:53:19.857"></status>
+</kw>
+<kw name="Maximize Browser Window" library="ExtendedSelenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170706 13:53:29.962" starttime="20170706 13:53:29.831"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:29.962" starttime="20170706 13:53:19.857"></status>
+</kw>
+<kw name="click &quot;Orange Radio&quot; link" library="Header">
+<kw name="Click Link" library="ExtendedSelenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${Orange_radio link}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:29.965" level="INFO">Clicking link 'Css=.navbar-brand.title.ng-binding'.</msg>
+<status status="PASS" endtime="20170706 13:53:30.594" starttime="20170706 13:53:29.964"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:30.595" starttime="20170706 13:53:29.963"></status>
+</kw>
+<kw name="verify &quot;Orange Radio Home&quot; visible" library="OrangeRadio">
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Home_tab1}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:30.605" level="INFO">Verifying element 'Css=#tab1' is visible.</msg>
+<status status="PASS" endtime="20170706 13:53:30.636" starttime="20170706 13:53:30.605"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:30.636" starttime="20170706 13:53:30.604"></status>
+</kw>
+<kw type="teardown" name="Close orange radio" library="Commonkwds">
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170706 13:53:30.789" starttime="20170706 13:53:30.637"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:30.789" starttime="20170706 13:53:30.636"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:30.790" critical="yes" starttime="20170706 13:53:19.855"></status>
+</test>
+<test id="s1-t3" name="Test Search icon">
+<kw type="setup" name="Open orange radio" library="Commonkwds">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:30.794" level="INFO">Opening browser 'firefox' to base url 'http://www.radio.orange.com/home'</msg>
+<status status="PASS" endtime="20170706 13:53:39.536" starttime="20170706 13:53:30.793"></status>
+</kw>
+<kw name="Maximize Browser Window" library="ExtendedSelenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170706 13:53:39.632" starttime="20170706 13:53:39.536"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:39.632" starttime="20170706 13:53:30.793"></status>
+</kw>
+<kw name="click &quot;search&quot; icon" library="Header">
+<kw name="Click Element" library="ExtendedSelenium2Library">
+<doc>Clicks an element identified by ``locator``.</doc>
+<arguments>
+<arg>${Search}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:39.639" level="INFO">Clicking element 'xpath=//*[@id='navbar']/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170706 13:53:40.261" starttime="20170706 13:53:39.636"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:40.261" starttime="20170706 13:53:39.634"></status>
+</kw>
+<kw name="verify &quot;Header Search Bar&quot; visible" library="SearchBar">
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${HeaderSearchBox}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:40.267" level="INFO">Verifying element 'xpath=//div[@class="navbar-header search-module-activate"]//input' is visible.</msg>
+<status status="PASS" endtime="20170706 13:53:40.344" starttime="20170706 13:53:40.266"></status>
+</kw>
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${HeaderSearchBox_magnifire}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:40.345" level="INFO">Verifying element 'xpath=//div[@class="navbar-header search-module-activate"]//span[@class='input-group-addon']' is visible.</msg>
+<status status="PASS" endtime="20170706 13:53:40.373" starttime="20170706 13:53:40.344"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:40.374" starttime="20170706 13:53:40.266"></status>
+</kw>
+<kw type="teardown" name="Close orange radio" library="Commonkwds">
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170706 13:53:40.529" starttime="20170706 13:53:40.375"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:40.529" starttime="20170706 13:53:40.374"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:40.530" critical="yes" starttime="20170706 13:53:30.792"></status>
+</test>
+<test id="s1-t4" name="Test Home Button">
+<kw type="setup" name="Open orange radio" library="Commonkwds">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:40.534" level="INFO">Opening browser 'firefox' to base url 'http://www.radio.orange.com/home'</msg>
+<status status="PASS" endtime="20170706 13:53:49.066" starttime="20170706 13:53:40.533"></status>
+</kw>
+<kw name="Maximize Browser Window" library="ExtendedSelenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170706 13:53:49.156" starttime="20170706 13:53:49.066"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:49.157" starttime="20170706 13:53:40.533"></status>
+</kw>
+<kw name="click &quot;Home&quot; link" library="Header">
+<kw name="Click Element" library="ExtendedSelenium2Library">
+<doc>Clicks an element identified by ``locator``.</doc>
+<arguments>
+<arg>${Home}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:49.158" level="INFO">Clicking element 'xpath=//*[@id='menu-tab-home']/a'.</msg>
+<status status="PASS" endtime="20170706 13:53:49.754" starttime="20170706 13:53:49.158"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:49.755" starttime="20170706 13:53:49.157"></status>
+</kw>
+<kw name="verify &quot;Orange Radio Home&quot; visible" library="OrangeRadio">
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Home_tab1}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:49.756" level="INFO">Verifying element 'Css=#tab1' is visible.</msg>
+<status status="PASS" endtime="20170706 13:53:49.812" starttime="20170706 13:53:49.756"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:49.813" starttime="20170706 13:53:49.755"></status>
+</kw>
+<kw type="teardown" name="Close orange radio" library="Commonkwds">
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170706 13:53:50.017" starttime="20170706 13:53:49.813"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:50.017" starttime="20170706 13:53:49.813"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:53:50.017" critical="yes" starttime="20170706 13:53:40.532"></status>
+</test>
+<test id="s1-t5" name="Test Top radios Button">
+<kw type="setup" name="Open orange radio" library="Commonkwds">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20170706 13:53:50.021" level="INFO">Opening browser 'firefox' to base url 'http://www.radio.orange.com/home'</msg>
+<status status="PASS" endtime="20170706 13:54:00.499" starttime="20170706 13:53:50.021"></status>
+</kw>
+<kw name="Maximize Browser Window" library="ExtendedSelenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170706 13:54:00.612" starttime="20170706 13:54:00.500"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:00.613" starttime="20170706 13:53:50.020"></status>
+</kw>
+<kw name="Click &quot;Top Radios&quot; link" library="Header">
+<kw name="Click Element" library="ExtendedSelenium2Library">
+<doc>Clicks an element identified by ``locator``.</doc>
+<arguments>
+<arg>${top_radios}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:00.616" level="INFO">Clicking element 'xpath=//*[@id='menu-tab-top']/a'.</msg>
+<status status="PASS" endtime="20170706 13:54:01.222" starttime="20170706 13:54:00.615"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:01.222" starttime="20170706 13:54:00.614"></status>
+</kw>
+<kw name="Verify &quot;Top Station&quot; visible" library="Stations">
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Tops stations}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:01.223" level="INFO">Verifying element 'xpath=//*[@id='tab3']/div[1]/div/div[1]/h1' is visible.</msg>
+<status status="PASS" endtime="20170706 13:54:01.259" starttime="20170706 13:54:01.223"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:01.259" starttime="20170706 13:54:01.222"></status>
+</kw>
+<kw type="teardown" name="Close orange radio" library="Commonkwds">
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170706 13:54:01.407" starttime="20170706 13:54:01.260"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:01.407" starttime="20170706 13:54:01.260"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:01.407" critical="yes" starttime="20170706 13:53:50.019"></status>
+</test>
+<test id="s1-t6" name="Test Contacts Button">
+<kw type="setup" name="Open orange radio" library="Commonkwds">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:01.411" level="INFO">Opening browser 'firefox' to base url 'http://www.radio.orange.com/home'</msg>
+<status status="PASS" endtime="20170706 13:54:10.095" starttime="20170706 13:54:01.411"></status>
+</kw>
+<kw name="Maximize Browser Window" library="ExtendedSelenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170706 13:54:10.193" starttime="20170706 13:54:10.096"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:10.193" starttime="20170706 13:54:01.410"></status>
+</kw>
+<kw name="click &quot;contacts&quot; link" library="Header">
+<kw name="Click Element" library="ExtendedSelenium2Library">
+<doc>Clicks an element identified by ``locator``.</doc>
+<arguments>
+<arg>${contacts}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:10.196" level="INFO">Clicking element 'xpath=//*[@id='menu-tab-contact']/a'.</msg>
+<status status="PASS" endtime="20170706 13:54:10.781" starttime="20170706 13:54:10.195"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:10.781" starttime="20170706 13:54:10.194"></status>
+</kw>
+<kw name="Verify &quot;Contact Us&quot; visible" library="Commonkwds">
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${ContactUs_text}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:10.783" level="INFO">Verifying element 'xpath=//*[@id='tab6']//h1' is visible.</msg>
+<status status="PASS" endtime="20170706 13:54:10.834" starttime="20170706 13:54:10.783"></status>
+</kw>
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Suggest a station_Button}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:10.834" level="INFO">Verifying element 'xpath=//*[@id='mask1']/div/a[1]/div' is visible.</msg>
+<status status="PASS" endtime="20170706 13:54:10.854" starttime="20170706 13:54:10.834"></status>
+</kw>
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Developers_Button}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:10.854" level="INFO">Verifying element 'xpath=//*[@id='mask1']/div/a[2]/div' is visible.</msg>
+<status status="PASS" endtime="20170706 13:54:10.878" starttime="20170706 13:54:10.854"></status>
+</kw>
+<kw name="Element Should Be Visible" library="ExtendedSelenium2Library">
+<doc>Verifies that the element identified by `locator` is visible.</doc>
+<arguments>
+<arg>${Others questions_Button}</arg>
+</arguments>
+<msg timestamp="20170706 13:54:10.879" level="INFO">Verifying element 'xpath=//*[@id='mask1']/div/a[3]/div' is visible.</msg>
+<status status="PASS" endtime="20170706 13:54:10.905" starttime="20170706 13:54:10.878"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:10.906" starttime="20170706 13:54:10.782"></status>
+</kw>
+<kw type="teardown" name="Close orange radio" library="Commonkwds">
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170706 13:54:11.039" starttime="20170706 13:54:10.907"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:11.039" starttime="20170706 13:54:10.906"></status>
+</kw>
+<status status="PASS" endtime="20170706 13:54:11.040" critical="yes" starttime="20170706 13:54:01.409"></status>
+</test>
+<status status="PASS" endtime="20170706 13:54:11.042" starttime="20170706 13:53:03.955"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="6">Critical Tests</stat>
+<stat fail="0" pass="6">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="HeaderTests" pass="6">HeaderTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170706 13:53:05.072" level="ERROR">Error in file 'C:\Users\dpgn7791\development\robot-scripts\Orange_Radio\Tests\HeaderTests.robot': Resource file '..\Resources\POS\ContactUs.robot' does not exist.</msg>
+</errors>
+</robot>

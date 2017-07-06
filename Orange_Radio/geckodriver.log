@@ -1,0 +1,349 @@
+1499342041873	geckodriver	INFO	Listening on 127.0.0.1:50417
+1499342043475	mozprofile::profile	INFO	Using profile path C:\Users\dpgn7791\AppData\Local\Temp\rust_mozprofile.TXLpfv1a8ZS1
+1499342043502	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499342043520	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50428
+1499342044197	addons.manager	DEBUG	Application has been upgraded
+1499342044227	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1499342044229	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1499342044233	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1499342044234	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1499342044235	addons.manager	DEBUG	Starting provider: XPIProvider
+1499342044236	addons.xpi	DEBUG	startup
+1499342044236	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1499342044237	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1499342044237	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1499342044238	addons.xpi	INFO	Mapping loop@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1499342044238	addons.xpi	INFO	Mapping websensehelper@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1499342044239	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1499342044240	addons.xpi	DEBUG	checkForChanges
+1499342044240	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1499342044241	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1499342044242	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1499342044242	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1499342044242	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1499342044243	addons.xpi	DEBUG	New add-on loop@mozilla.org in app-system-defaults
+1499342044243	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1499342044244	addons.xpi	DEBUG	New add-on websensehelper@mozilla.org in app-system-defaults
+1499342044244	addons.xpi	DEBUG	getModTime: Recursive scan of websensehelper@mozilla.org
+1499342044244	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1499342044244	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1499342044245	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1489319234300},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1489319234293},"loop@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","st":1489319234279},"websensehelper@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\websensehelper@mozilla.org.xpi","st":1489319234500}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1489319234353}}}
+1499342044253	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\dpgn7791\AppData\Local\Temp\rust_mozprofile.TXLpfv1a8ZS1\extensions.json
+1499342044255	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1499342044266	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044267	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1499342044273	DeferredSave.extensions.json	DEBUG	Starting timer
+1499342044275	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044275	addons.xpi-utils	DEBUG	New add-on loop@mozilla.org installed in app-system-defaults
+1499342044284	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044284	addons.xpi-utils	DEBUG	New add-on websensehelper@mozilla.org installed in app-system-defaults
+1499342044290	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044291	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1499342044295	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044295	addons.xpi-utils	INFO	Hiding the updated system add-ons.
+1499342044303	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1499342044319	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.0
+1499342044319	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1499342044320	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044321	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1499342044327	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.2
+1499342044327	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1499342044328	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044328	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1499342044336	addons.xpi	DEBUG	Calling bootstrap method install on loop@mozilla.org version 1.3.2
+1499342044336	addons.xpi-utils	DEBUG	Make addon app-system-defaults:loop@mozilla.org visible
+1499342044337	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044337	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1499342044342	addons.xpi	DEBUG	Calling bootstrap method install on websensehelper@mozilla.org version 1.0
+1499342044342	addons.xpi-utils	DEBUG	Make addon app-system-defaults:websensehelper@mozilla.org visible
+1499342044343	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044343	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1499342044343	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044344	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"trPdfh1bOJe2","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1489319234300,"updateDate":1489319234300,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4584,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.2","maxVersion":"47.0.2"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1499342044344	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1499342044344	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"LUNZ6SGqvv-k","location":"app-system-defaults","version":"1.0.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1489319234293,"updateDate":1489319234293,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":894477,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.2","maxVersion":"47.0.2"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1499342044344	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1499342044345	addons.xpi	DEBUG	Updating XPIState for {"id":"loop@mozilla.org","syncGUID":"-naCrVlgZ_kE","location":"app-system-defaults","version":"1.3.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Hello","description":"Web sharing for Firefox","creator":"Mozilla","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","installDate":1489319234279,"updateDate":1489319234279,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4239168,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0a1","maxVersion":"47.*"},{"id":"xpcshell@tests.mozilla.org","minVersion":"0","maxVersion":"10"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1499342044345	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1499342044345	addons.xpi	DEBUG	Updating XPIState for {"id":"websensehelper@mozilla.org","syncGUID":"fZiZziyUE9Uv","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Websense Helper","description":"Checks for the non-presence of Websense to allow updates to happen.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\websensehelper@mozilla.org.xpi","installDate":1489319234500,"updateDate":1489319234500,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":3110,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.2","maxVersion":"47.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1499342044345	addons.xpi	DEBUG	getModTime: Recursive scan of websensehelper@mozilla.org
+1499342044346	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"AMBfmNRKa_cQ","location":"app-global","version":"47.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1489319234353,"updateDate":1489319234353,"applyBackgroundUpdates":1,"skinnable":true,"size":22012,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.2","maxVersion":"47.0.2"}],"targetPlatforms":[],"seen":true}
+1499342044346	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1499342044347	DeferredSave.extensions.json	DEBUG	Save changes
+1499342044348	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1499342044348	addons.xpi-utils	DEBUG	Updating add-on states
+1499342044354	addons.xpi-utils	DEBUG	Writing add-ons list
+1499342044364	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1499342044365	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1499342044366	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1499342044368	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1499342044370	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1499342044373	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1499342044398	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1499342044401	addons.xpi	DEBUG	Calling bootstrap method startup on websensehelper@mozilla.org version 1.0
+1499342044405	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1499342044406	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1499342044406	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1499342044406	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1499342044406	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1499342044407	addons.manager	DEBUG	Starting provider: GMPProvider
+1499342044414	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1499342044414	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1499342044414	addons.manager	DEBUG	Starting provider: PluginProvider
+1499342044415	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1499342044415	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1499342044415	addons.manager	DEBUG	Completed startup sequence
+1499342044692	Marionette	INFO	Listening on port 50428
+JavaScript error: resource://app/components/nsBrowserGlue.js, line 2021: NS_ERROR_ABORT: Component returned failure code: 0x80004004 (NS_ERROR_ABORT) [nsIPrefBranch.getComplexValue]
+1499342044791	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1499342044791	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1499342044791	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1499342044842	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1499342044842	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1499342044842	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1499342044844	DeferredSave.extensions.json	DEBUG	Starting write
+1499342045112	DeferredSave.extensions.json	DEBUG	Write succeeded
+1499342045113	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1499342050918	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1499342050918	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1499342050919	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1499342050921	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+JavaScript error: resource://app/modules/SelfSupportBackend.jsm, line 112: TypeError: this._log is null
+wnloadXHR File download. status=200
+1491821405907	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\dpgn7791\AppData\Local\Temp\tmpaddon
+1491821414213	addons.productaddons	INFO	downloadXHR File download. status=200
+1491821414221	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\dpgn7791\AppData\Local\Temp\tmpaddon
+1491821691975	addons.manager	INFO	Skipping background update check
+1491821447543	DeferredSave.extensions.json	DEBUG	Save changes
+1491821447545	DeferredSave.extensions.json	DEBUG	Starting timer
+1491821447568	DeferredSave.extensions.json	DEBUG	Starting write
+1491821447581	DeferredSave.extensions.json	DEBUG	Write succeeded
+pping background update check
+1491820810410	DeferredSave.extensions.json	DEBUG	Save changes
+1491820810412	DeferredSave.extensions.json	DEBUG	Starting timer
+1491820810433	DeferredSave.extensions.json	DEBUG	Starting write
+1491820810445	DeferredSave.extensions.json	DEBUG	Write succeeded
+.org version 1.3.2
+1491818456262	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+JavaScript error: resource://app/modules/SelfSupportBackend.jsm, line 112: TypeError: this._log is null
+1491818456375	addons.manager	DEBUG	shutdown
+1491818456376	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1491818456376	addons.xpi	DEBUG	shutdown
+1491818456376	addons.xpi-utils	DEBUG	shutdown
+1491818456377	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1491818456377	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1491818456380	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1491818456381	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1491818456383	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1491818456385	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1491818456389	addons.manager	DEBUG	Async provider shutdown done
+ done
+st/controllers/form.js, line 1: TypeError: ORSuggest is undefined
+JavaScript error: http://www.radio.orange.com/suggest/orsuggest/directives/stream.js, line 1: TypeError: ORSuggest is undefined
+JavaScript error: http://www.radio.orange.com/suggest/orsuggest/directives/localistion.js, line 1: TypeError: ORSuggest is undefined
+JavaScript error: http://www.radio.orange.com/suggest/orsuggest/directives/uiSelectRequired.js, line 1: TypeError: ORSuggest is undefined
+JavaScript error: http://www.radio.orange.com/suggest/orsuggest/directives/focusNext.js, line 1: TypeError: ORSuggest is undefined
+1491491892940	addons.productaddons	INFO	downloadXHR File download. status=200
+1491491892949	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\dpgn7791\AppData\Local\Temp\tmpaddon
+1491491895290	addons.productaddons	INFO	downloadXHR File download. status=200
+1491491895295	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\dpgn7791\AppData\Local\Temp\tmpaddon
+1491491903480	addons.productaddons	INFO	downloadXHR File download. status=200
+1491491903505	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\dpgn7791\AppData\Local\Temp\tmpaddon
+1491491949226	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1491491949226	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1491491949227	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1491491949228	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+JavaScript error: resource://app/modules/SelfSupportBackend.jsm, line 112: TypeError: this._log is null
+1491491949318	addons.manager	DEBUG	shutdown
+1491491949319	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1491491949319	addons.xpi	DEBUG	shutdown
+1491491949319	addons.xpi-utils	DEBUG	shutdown
+1491491949319	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1491491949320	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1491491949323	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1491491949323	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1491491949325	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1491491949328	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1491491949331	addons.manager	DEBUG	Async provider shutdown done
+ata
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1489598287367	addons.manager	INFO	Skipping background update check
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1489598527413	DeferredSave.extensions.json	DEBUG	Save changes
+1489598527415	DeferredSave.extensions.json	DEBUG	Starting timer
+1489598527440	DeferredSave.extensions.json	DEBUG	Starting write
+1489598527462	DeferredSave.extensions.json	DEBUG	Write succeeded
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://tags.tiqcdn.com/utag/orange/assistance/prod/utag.74.js?utv=ut4.39.201702011049, line 5: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1489659460668	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1489659461551	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1489659461552	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1489659461560	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+JavaScript error: resource://app/modules/SelfSupportBackend.jsm, line 112: TypeError: this._log is null
+1489659507835	addons.manager	DEBUG	shutdown
+1489659507836	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1489659507837	addons.xpi	DEBUG	shutdown
+1489659507837	addons.xpi-utils	DEBUG	shutdown
+1489659507839	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1489659507840	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1489659507847	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1489659507848	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1489659507855	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1489659507859	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1489659507863	addons.manager	DEBUG	Async provider shutdown done
